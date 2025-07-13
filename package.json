@@ -1,0 +1,24 @@
+{
+  "name": "pdf-bun-triggers",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts",
+    "generate": "bunx drizzle-kit generate",
+    "migrate": "bunx drizzle-kit migrate",
+    "trigger:dev": "bunx trigger.dev@latest dev"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.835.0",
+    "@libsql/client": "^0.15.9",
+    "@trigger.dev/sdk": "^3.3.17",
+    "drizzle-orm": "^0.44.2",
+    "hono": "^4.8.3",
+    "puppeteer": "^24.10.2"
+  },
+  "devDependencies": {
+    "@trigger.dev/build": "^3.3.17",
+    "@types/bun": "latest",
+    "drizzle-kit": "^0.31.2",
+    "typescript": "^5.8.3"
+  },
+  "packageManager": "pnpm@10.12.2+sha512.a32540185b964ee30bb4e979e405adc6af59226b438ee4cc19f9e8773667a66d302f5bfee60a39d3cac69e35e4b96e708a71dd002b7e9359c4112a1722ac323f"
+}
