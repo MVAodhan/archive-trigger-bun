@@ -1,8 +1,8 @@
 FROM oven/bun:1 AS base
 WORKDIR /
 
+
 COPY package.json ./
-RUN bunx puppeteer browsers install chrome
 RUN bun install
 
 
