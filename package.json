@@ -12,7 +12,6 @@
     "@libsql/client": "^0.15.9",
     "drizzle-orm": "^0.44.2",
     "hono": "^4.8.3",
-    "puppeteer": "^24.10.2",
     "puppeteer-core": "^24.12.1"
   },
   "devDependencies": {
